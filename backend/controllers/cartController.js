@@ -1,6 +1,6 @@
 import userModel from "../models/userModel.js"
 
-// add to user cart  
+// add to user cart  section
 const addToCart = async (req, res) => {
    try {
       let userData = await userModel.findOne({_id:req.body.userId});
