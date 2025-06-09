@@ -64,6 +64,7 @@ const PlaceOrder = () => {
             navigate('/cart')
         }
     }, [token])
+    
 
     return (
         <form onSubmit={placeOrder} className='place-order'>
