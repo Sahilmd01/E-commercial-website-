@@ -20,6 +20,7 @@ const PlaceOrder = () => {
         phone: ""
     })
 
+    
     const { getTotalCartAmount, token, food_list, cartItems, url, setCartItems } = useContext(StoreContext);
 
     const navigate = useNavigate();
